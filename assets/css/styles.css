@@ -1,32 +1,84 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 header {
-    background-color: #011C40;
-    padding: 3rem;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;;
+  background-color: #011c40;
+  padding: 3rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 header h1 {
-    color: white;
-    font-size: 1.5rem;
+  color: white;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .card {
-    width: calc(50% - 2rem);
-    max-width: 20rem;
-    margin-top: 1rem;
-    margin-left: .5rem;
-    margin-right: .5rem;
+  width: calc(50% - 2rem);
+  max-width: 20rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-family: "Roboto", sans-serif;
 }
 
+.card h2 {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.card h3 {
+  font-size: 1rem;
+  display: inline;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-header {
+  background-color: #056cf2;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+img {
+  width: 1.5rem;
+  margin-bottom: -0.25rem;
+  margin-top: 0.2rem;
+}
+
+.card-body {
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.card-body ul {
+  background-color: white;
+  width: 80%;
+  border: 1px solid lightgrey;
+  border-radius: 0.25rem;
+}
+
+.card-body li {
+  padding: 1rem;
+}
+li:nth-child(2) {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
