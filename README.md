@@ -6,7 +6,7 @@ This is a Team Profile Generator application, utilizing Node.js to take in infor
 # Installation
 The generator runs in the terminal and will be invoked by using the following command:
 
-    node index.js
+    node app.js
 
 Packages needed to run components of this application: jest and inquirer.
 

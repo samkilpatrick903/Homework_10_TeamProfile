@@ -2,7 +2,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 const Manager = require("./employees/manager");
-const Engineer = require("./employees/engineer");
+const Engineer = require("./employees/engineers");
 const Intern = require("./employees/intern");
 
 function generateCardsHTML(employees) {
@@ -147,16 +147,31 @@ function runInquirerQuestionSequence() {
 const employees = [];
 
 function createManagerObject(response) {
-    const newManager = new Manager(response.name, response.email, response.id, response.officeNumber);
-    employees.push(newManager);
+  const newManager = new Manager(
+    response.name,
+    response.email,
+    response.id,
+    response.officeNumber
+  );
+  employees.push(newManager);
 }
 
 function createEngineerObject(response) {
-    const newEngineer = new Engineer(response.name, response.email, response.id, response.githubUsername);
-    employees.push(newEngineer);
+  const newEngineer = new Engineer(
+    response.name,
+    response.email,
+    response.id,
+    response.githubUsername
+  );
+  employees.push(newEngineer);
 }
 
 function createInternObject(response) {
-    const newIntern = new Intern(response.name, response.email, response.id, response.school);
-    employees.push(newIntern);
+  const newIntern = new Intern(
+    response.name,
+    response.email,
+    response.id,
+    response.school
+  );
+  employees.push(newIntern);
 }
