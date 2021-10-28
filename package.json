@@ -1,0 +1,27 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "# Description This is a Team Profile Generator application, utilizing Node.js to take in information about employees, then generates an HTML page that displays individual ID Cards for the employees. Testing is included to retain code's functionality and maintainability.",
+  "main": "generateHTML.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.3.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samkilpatrick903/Homework_10_TeamProfile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samkilpatrick903/Homework_10_TeamProfile/issues"
+  },
+  "homepage": "https://github.com/samkilpatrick903/Homework_10_TeamProfile#readme"
+}
